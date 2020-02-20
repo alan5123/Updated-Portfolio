@@ -1,0 +1,126 @@
+.AboutTop{
+  display: flex;
+margin: 2% 0;
+padding: 1%;
+
+  div{
+      width:50%;
+
+   
+  }
+
+  .text{
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+      margin-right: 5%;
+      font-size: 5rem;
+
+      h2{
+          margin-bottom: 1% ;
+      }
+      h3{
+          font-weight: bold;
+          border-bottom: solid;
+          padding-bottom: .5%;
+      }
+  }
+
+  
+  
+       
+       
+        
+    img{
+        height:40rem;
+        width:40rem;
+        border-radius: 25px;
+    }
+}
+
+
+.AboutBottom{
+    text-align: center;
+    h2{
+        font-size: 35px;
+        margin: 3%;
+    }
+    p{
+        font-size: 20px;
+        line-height: 1.5;
+    }
+}
+
+#projects{
+    
+    .flexRow;
+    margin: 3% 2%;
+    justify-content: space-around;
+
+
+    @media @tablet{
+        .flexColumn;
+       align-items: center;
+    }
+
+
+   @media @mobile {
+       .flexColumn;
+       align-items: center;
+       
+   }
+   
+                div{
+                    
+                       
+                    
+                    margin: 0 5rem;
+                width: 29%;
+                           
+                @media @tablet{
+                    width:90%;
+                }
+                @media @mobile{
+                    width:35rem;
+                    margin:0 5%;
+
+                }
+
+
+
+                h2{
+                    font-size: 3rem;
+                    text-align: center;
+                    margin: 5% 0;
+            }
+
+
+                img{
+                    
+                    width:100%;
+                    height:auto;
+                    border-radius: 6px;
+                
+                }
+
+
+                p{
+                    line-height: 2;
+                    margin: 2% 0;
+                    text-align: center;
+                    font-size: 2rem;
+                    height:40%;
+                    
+                }
+
+   }
+    
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+    margin: 2%;
+}

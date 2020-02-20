@@ -1,0 +1,270 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+html,
+body {
+  font-size: 62.5%;
+  max-width: 100%;
+  background-color: #08091d;
+  color: white;
+}
+body {
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 4rem;
+}
+.AboutTop {
+  display: flex;
+  margin: 2% 0;
+  padding: 1%;
+}
+.AboutTop div {
+  width: 50%;
+}
+.AboutTop .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 5%;
+  font-size: 5rem;
+}
+.AboutTop .text h2 {
+  margin-bottom: 1% ;
+}
+.AboutTop .text h3 {
+  font-weight: bold;
+  border-bottom: solid;
+  padding-bottom: 0.5%;
+}
+.AboutTop img {
+  height: 40rem;
+  width: 40rem;
+  border-radius: 25px;
+}
+.AboutBottom {
+  text-align: center;
+}
+.AboutBottom h2 {
+  font-size: 35px;
+  margin: 3%;
+}
+.AboutBottom p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+#projects {
+  display: flex;
+  margin: 3% 2%;
+  justify-content: space-around;
+}
+@media (max-width: 800px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  #projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+#projects div {
+  margin: 0 5rem;
+  width: 29%;
+}
+@media (max-width: 800px) {
+  #projects div {
+    width: 90%;
+  }
+}
+@media (max-width: 500px) {
+  #projects div {
+    width: 35rem;
+    margin: 0 5%;
+  }
+}
+#projects div h2 {
+  font-size: 3rem;
+  text-align: center;
+  margin: 5% 0;
+}
+#projects div img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+#projects div p {
+  line-height: 2;
+  margin: 2% 0;
+  text-align: center;
+  font-size: 2rem;
+  height: 40%;
+}
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2%;
+}
+.navDiv nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1% 0;
+  background-color: #0d1030;
+  padding: 0.7% 0;
+}
+.navDiv nav a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+.navDiv nav a:hover {
+  font-weight: bold;
+}
+.navDiv nav button {
+  background-color: #08091d;
+  color: white;
+  border-color: ;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 3px 0;
+  width: 130px;
+  text-align: center;
+  border-radius: 5px;
+}
+.navDiv nav button:hover {
+  background-color: #121230;
+  color: ;
+  border-color: ;
+}
